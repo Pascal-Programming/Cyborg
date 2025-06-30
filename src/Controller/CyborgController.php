@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Attribute\Route;
 
 final class CyborgController extends AbstractController
 {
-    #[Route('/cyborg', name: 'app_cyborg')]
+    #[Route('/', name: 'app_cyborg')]
     public function index(): Response
     {
         return $this->render('cyborg/index.html.twig', [
