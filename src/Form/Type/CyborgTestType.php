@@ -11,11 +11,17 @@ class CyborgTestType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('medical-implants', CheckboxType::class, [
-                'label' => 'Medizinische Implantate',
+            ->add('cyborg1', CheckboxType::class, [
+                'label' => '1',
                 'required' => false,])
-            ->add('medical-implants', CheckboxType::class, [
-                'label' => 'Leistungssteigernde Implantate',
+            ->add('cyborg2', CheckboxType::class, [
+                'label' => '2',
+                'required' => false,])
+            ->add('cyborg3', CheckboxType::class, [
+                'label' => '3',
+                'required' => false,])
+            ->add('cyborg4', CheckboxType::class, [
+                'label' => '4',
                 'required' => false,]);
 
     }
