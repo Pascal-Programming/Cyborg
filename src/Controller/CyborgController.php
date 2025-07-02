@@ -20,13 +20,14 @@ final class CyborgController extends AbstractController
     #[Route('/', name: 'app_cyborg')]
     public function index(Request $request): Response
     {
+        $result = '';
         $form = $this->createForm(CyborgTestType::class);
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
             $cyborgFormData = $form->getData();
             $result = $this->cyborgTestService->cybortTest($cyborgFormData);
-            //dd($result);
+
         }
 
 

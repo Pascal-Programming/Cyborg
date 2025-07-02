@@ -1,5 +1,7 @@
-$red : #d5c3c3;
 
-body {
-    background-color: $red;
-}
+@use "components/colors";
+
+@use "components/page";
+@use "components/cyborgTest";
+@use "components/cyborgDefinition";
+

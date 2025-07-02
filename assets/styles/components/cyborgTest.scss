@@ -1,0 +1,9 @@
+@use "colors";
+
+.cyborg-test {
+    padding: 0.6rem 1rem 0.6rem 1rem;
+    background-color: colors.$white-primary;
+    border: solid 0.2rem colors.$ice-blue-primary;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,9 @@
+@use "colors";
+
+.content {
+    background-color: colors.$white-clean;
+
+    h1 {
+        text-shadow: solid colors.$ice-blue-primary;
+    }
+}
