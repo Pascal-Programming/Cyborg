@@ -16,3 +16,16 @@ copmoser install
 ddev start
 ```
 
+# Compile Scss
+For continues development
+```
+npm run dev -- --watch
+```
+For single compilation of scss
+```
+npm run dev
+```
+or for hard rebuild
+```
+npm run build
+```
