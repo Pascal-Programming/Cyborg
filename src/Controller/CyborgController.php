@@ -17,7 +17,7 @@ final class CyborgController extends AbstractController
     {
     }
 
-    #[Route('/', name: 'app_cyborg')]
+    #[Route('/{_locale}/', name: 'app_cyborg', requirements: ['_locale' => 'en|de'])]
     public function index(Request $request): Response
     {
         $result = '';
