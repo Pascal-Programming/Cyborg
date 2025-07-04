@@ -1,3 +1,27 @@
 
 cyborg:
     pageHeadline: "Großer Cyborg Test"
+
+
+    testHeadline: "Bin ich ein Cyborg?"
+    formLabel1: "5"
+    formLabel2: "6"
+    formLabel3: "7"
+    formLabel4: "8"
+    testFormSubmit: "Analysieren"
+    formResult: "Test Ergebnis:"
+
+
+    definitionHeadline: "Was ist ein Cyborg"
+    definitionHeadlineDefinition: "Defintion eines Cyborgs"
+    definitionTextDefinition: "Ein Cyborg ist ein Wesen, das sowohl aus natürlichen biologischen Elementen als auch aus künstlichen, technologischen Komponenten besteht, die in den Körper integriert sind. Diese technischen Elemente können beispielsweise Implantate, Prothesen, Sensoren oder andere elektronische Geräte sein."
+
+    definitionHeadlineFeatures: "Merkmale eines Cyborgs"
+    definitionFeaturesList1: "Integration von Technologie in den Körper"
+    definitionFeaturesList2: "Verbesserung oder Wiederherstellung biologischer Funktionen"
+    definitionFeaturesList3: "Verschmelzung von lebender Materie und Maschine"
+
+    definitionHeadlineExamples: "Beispiele für ein Cyborg"
+    definitionExamplesList1: "Menschen mit Herzschrittmachern oder Cochlea-Implantaten"
+    definitionExamplesList2: "Wissenschaftlich entwickelte Prothesen mit erweiterten Fähigkeiten"
+    definitionExamplesList3: "Fiktionale Figuren wie RoboCop oder Cyborgs in Filmen und Literatur"

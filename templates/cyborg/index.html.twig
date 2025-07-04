@@ -6,38 +6,39 @@
 <div class="content">
     <h1>{{ 'cyborg.pageHeadline'|trans }}</h1>
     <div class="cyborg-test">
-        <h2>Bin ich ein Cyborg?</h2>
+        <h2>{{ 'cyborg.testHeadline'|trans }}</h2>
         <div class="cyborg-test-form">
             {{ form_start(form) }}
 
             {{ form_widget(form) }}
 
-            <button type="submit">Analysieren</button>
+            <button type="submit">{{ 'cyborg.testFormSubmit'|trans }}</button>
             {{ form_end(form) }}
         </div>
         <div>
-            <p>Ergebnis Test:</p>
+            <p>{{ 'cyborg.formResult'|trans }}</p>
             {{ result }}
         </div>
 
 
     </div>
     <div class="cyborg-definition">
-        <h2>Was ist ein Cyborg?</h2>
-        <h3>Definition eines Cyborgs:</h3>
-        <p>Ein Cyborg ist ein Wesen, das sowohl aus natürlichen biologischen Elementen als auch aus künstlichen, technologischen Komponenten besteht, die in den Körper integriert sind. Diese technischen Elemente können beispielsweise Implantate, Prothesen, Sensoren oder andere elektronische Geräte sein.
-        </p>
-        <h3>Merkmale eines Cyborgs:
+        <h2>{{ 'cyborg.definitionHeadline'|trans }}</h2>
+        <h3>{{ 'cyborg.definitionHeadlineDefinition'|trans }}</h3>
+        <p>{{ 'cyborg.definitionTextDefinition'|trans }}</p>
+
+        <h3>Merkmale eines Cyborgs:{{ 'cyborg.definitionHeadlineFeatures'|trans }}</h3>
             <ul>
-                <li>Integration von Technologie in den Körper</li>
-                <li>Verbesserung oder Wiederherstellung biologischer Funktionen
-                <li>Verschmelzung von lebender Materie und Maschine</li>
+                <li>{{ 'cyborg.definitionFeaturesList1'|trans }}</li>
+                <li>{{ 'cyborg.definitionFeaturesList2'|trans }}</li>
+                <li>{{ 'cyborg.definitionFeaturesList3'|trans }}</li>
             </ul>
-        <h3>Beispiele für Cyborgs:
+
+        <h3>Beispiele für Cyborgs:{{ 'cyborg.definitionHeadlineExamples'|trans }}</h3>
             <ul>
-                <li>Menschen mit Herzschrittmachern oder Cochlea-Implantaten</li>
-                <li>Wissenschaftlich entwickelte Prothesen mit erweiterten Fähigkeiten
-                <li>Fiktionale Figuren wie RoboCop oder Cyborgs in Filmen und Literatur</li>
+                <li>{{ 'cyborg.definitionExamplesList1'|trans }}</li>
+                <li>{{ 'cyborg.definitionExamplesList2'|trans }}</li>
+                <li>{{ 'cyborg.definitionExamplesList3'|trans }}</li>
             </ul>
     </div>
 

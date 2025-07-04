@@ -1,3 +1,14 @@
 
 cyborg:
-    pageHeadline: "BIg cyborg test"
+    pageHeadline: "Big cyborg test"
+
+
+    testHeadline: "Am I a cyborg?"
+    testFormSubmit: "analysis"
+    formResult: "Test result:"
+
+
+    definitionHeadline: "What is a Cyborg"
+    definitionHeadlineDefinition: "Definition of a cyborgs"
+    definitionHeadlineFeatures: "Features of a Cyborgs"
+    definitionHeadlineExamples: "Examples of a Cyborg"
