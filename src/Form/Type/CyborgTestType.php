@@ -6,13 +6,13 @@ use Symfony\Bundle\FrameworkBundle\Translation\Translator;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\CheckboxType;
 use Symfony\Component\Form\FormBuilderInterface;
+use Symfony\Contracts\Translation\TranslatorInterface;
 
 class CyborgTestType extends AbstractType
 {
-    private function __construct(
-        private readonly Translator $translator,
-    )
+    public function __construct(TranslatorInterface $translator)
     {
+        $this->translator = $translator;
     }
 
 
